@@ -112,6 +112,12 @@ li{
     font-size: 40px;
     color: rgb(255, 255, 255);
 }
+.section-1-center-2 span{
+  font-weight: 400;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
 .active:hover{
   color: #e52b34 !important;
 }
@@ -165,7 +171,11 @@ li{
   background-position: 50% 50%;
 }
 .card2-3:hover {
-  background-image: url(assets/card2-3-hover.png);
+  background-image: url(images/pexels-tyler-7s-748425196-30737921.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
 }
 .card2-4 {
   background-image: url(images/louis-hansel-74yRjQ-cvNI-unsplash.jpg);
@@ -190,7 +200,11 @@ li{
   background-position: 50% 50%;
 }
 .card2-5:hover {
-  background-image: url();
+  background-image: url(images/pexels-marta-dzedyshko-1042863-2067473.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50% 50%;
 }
 .card2-6 {
   background-image: url(images/pexels-valeriya-1199957.jpg);
@@ -442,3 +456,6 @@ p {
   border: 1px solid #e52b34 !important;
   color: #ffffff;
 }
+/* .......  */
+
+

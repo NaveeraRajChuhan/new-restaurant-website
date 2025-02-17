@@ -98,3 +98,53 @@
         height: 118vh;
     }
 } */
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+@media (min-width: 576px) {
+    .d-sm-flex {
+        display: flex !important;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 670px) {
+    .section-1-center-2 {
+        width: 100%;
+    }
+    .section-1-center-2 span{
+        display: none;
+    }
+}
+@media (max-width: 1308px) {
+    .section-1-center{
+        width: 85%;
+    }
+}
+@media (max-width: 864px) {
+    .section-1-center{
+        width: 95%;
+    }
+}
+@media (max-width: 774px) {
+    .section-1-center{
+        visibility: hidden;
+    }
+}
+@media (min-width: 1920px) and (max-width:2560px){
+    .section-4 {
+        min-height: 80vh;
+    }
+}
+@media (min-width: 1440px) and (max-width:1920.99px){
+    .section-4 {
+        min-height: 180vh;
+    }
+}
